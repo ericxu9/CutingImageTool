@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <link href="./styles.css" rel="stylesheet">
+    <title>切图工具</title>
+  </head>
+  <body>
+    <div style="text-align:center;margin-top: 20px;">
+      行：<input id="rowInput" type="number" value="3">
+      列：<input id="columnInput" type="number" value="3">
+    </div>
+    <div style="text-align:center; margin-top: 20px;">
+      <a href="javascript:void(0);" id="download" class="btn green">点我下载</a>
+    </div>
+    <div id="rootContainer" style="text-align:center;"></div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
