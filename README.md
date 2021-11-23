@@ -2,7 +2,7 @@
 
 > 使用Electron开发的图片分割小工具,支持zip压缩包下载
 
-![screenshot](image.jpg)
+![screenshot](image.png)
 
 ## 使用
 
